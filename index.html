@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>King Kong · Propuesta Instagram</title>
+<meta name="description" content="Un mes de contenido de Instagram para King Kong Autopartes, armado por el bot CM de Tranquera Digital.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Permanent+Marker&display=swap" rel="stylesheet">
+<style>
+:root{--pink:#ef78ba;--pink-d:#c94d92;--plum:#57193b;--plum-d:#3b0f28;--blush:#fbeef5;--blush-2:#f6d9e8;--paper:#fff9fc;--muted:#86506e;--line:rgba(87,25,59,.14);--tape:#f1e8d6}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--plum);font-family:"Montserrat",system-ui,sans-serif;font-size:16.5px;line-height:1.55;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+.lbl{font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+h1,h2,h3{font-weight:900;line-height:.98;color:var(--plum);letter-spacing:-.02em;text-transform:uppercase}
+h1 em,h2 em{font-style:normal;color:var(--pink-d)}
+.bar{height:6px;background:var(--pink);border-radius:3px}
+.tape{display:inline-block;background:var(--tape);color:var(--plum-d);font-family:"Permanent Marker",cursive;font-size:20px;line-height:1;padding:8px 14px 6px;transform:rotate(-3deg);box-shadow:inset 0 0 0 2px #e2d5bb}
+
+header{padding:28px 0 48px}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:52px}
+.top .who{display:flex;align-items:center;gap:12px}
+.top img{width:48px;height:48px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--pink)}
+.top b{font-weight:900;font-size:20px;text-transform:uppercase;letter-spacing:.02em}
+.top .lbl{color:var(--pink-d)}
+header h1{font-size:clamp(40px,9vw,92px)}
+.lead{max-width:680px;margin:22px 0 28px;font-size:18px;font-weight:500;color:var(--plum)}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:32px}
+.facts div{padding:16px 12px 16px 0}
+.facts b{display:block;font-weight:900;font-size:44px;line-height:1;color:var(--pink-d)}
+.facts span{font-size:13.5px;font-weight:600;color:var(--muted)}
+
+section{padding:56px 0;border-top:1px solid var(--line)}
+.sec-h{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:28px;flex-wrap:wrap}
+.sec-h h2{font-size:clamp(32px,6vw,54px)}
+.sec-h p{color:var(--muted);max-width:430px;font-size:14.5px;font-weight:500}
+
+.found{list-style:none}
+.found li{display:grid;grid-template-columns:110px 1fr;gap:16px;padding:18px 0;border-top:1px solid var(--line)}
+.tag{align-self:start;justify-self:start;padding:4px 9px;border-radius:999px;font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.tag.r{background:var(--plum-d);color:#fff}.tag.o{background:var(--blush-2);color:var(--plum)}.tag.g{background:var(--pink);color:var(--plum-d)}
+.found b{display:block;margin-bottom:4px;font-weight:800}
+.found span{color:var(--muted);font-size:14.5px;font-weight:500}
+
+.table{width:100%;border-collapse:collapse;font-size:14.5px;margin-top:8px}
+.table th,.table td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--line)}
+.table th{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--pink-d)}
+.table td{font-weight:500}
+.table td:nth-child(2),.table td:nth-child(3){font-variant-numeric:tabular-nums;white-space:nowrap}
+.table tr.hit td{background:var(--blush);font-weight:700}
+.tablewrap{overflow-x:auto}
+.insight{margin-top:24px;padding:18px 20px;background:var(--plum-d);color:#fff;border-radius:12px;font-weight:600;max-width:760px}
+.insight b{color:var(--pink)}
+
+.rhythm{display:grid;grid-template-columns:repeat(3,1fr);border-top:3px solid var(--pink)}
+.rhythm div{padding:18px 16px 18px 0}
+.rhythm b{display:block;font-weight:900;font-size:58px;line-height:1;color:var(--pink-d)}
+.rhythm span{display:block;font-weight:800}
+.rhythm small{display:block;font-size:13.5px;color:var(--muted);margin-top:4px;font-weight:500}
+.goal{margin-top:28px;max-width:740px;font-size:16.5px;font-weight:500}
+
+.day{display:grid;grid-template-columns:120px 1fr;gap:24px;padding:36px 0;border-top:1px solid var(--line)}
+.day:first-of-type{border-top:0;padding-top:0}
+.when b{display:block;font-weight:900;font-size:40px;line-height:1;color:var(--plum)}
+.when .lbl{color:var(--pink-d)}
+.when .cd{display:inline-block;margin-top:10px;padding:4px 9px;border-radius:999px;background:var(--blush-2);color:var(--plum)}
+.pieces{display:flex;flex-direction:column;gap:28px;min-width:0}
+.piece{display:grid;grid-template-columns:minmax(0,340px) 1fr;gap:24px;align-items:start}
+.piece > *{min-width:0}
+.piece .fmt{color:var(--pink-d);margin-bottom:8px}
+.piece h3{font-size:26px;margin-bottom:10px}
+.cap{white-space:pre-line;font-size:14.5px;font-weight:500;background:#fff;border-left:3px solid var(--pink);padding:14px 16px;border-radius:0 10px 10px 0}
+.hand{margin-top:10px;font-size:14px;color:var(--muted);font-weight:500}
+.hand b{color:var(--plum);font-weight:800}
+.media img{border-radius:10px;box-shadow:0 12px 30px rgba(87,25,59,.18)}
+.story-img{max-width:230px}
+.carousel{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:10px;-webkit-overflow-scrolling:touch}
+.carousel img{flex:0 0 86%;max-width:none;width:86%;scroll-snap-align:start}
+.hint{color:var(--muted);margin-top:4px}
+.strip{display:flex;gap:10px;overflow-x:auto;padding-bottom:10px;scroll-snap-type:x mandatory}
+.strip img{flex:0 0 auto;height:300px;width:auto;max-width:none;border-radius:10px;scroll-snap-align:start}
+.strip.hl img{height:130px;border-radius:50%;aspect-ratio:1;object-fit:cover;object-position:center}
+
+.steps{display:grid;grid-template-columns:repeat(4,1fr)}
+.step{padding:22px 18px 22px 0;border-top:3px solid var(--pink)}
+.step:nth-child(2),.step:nth-child(4){border-color:var(--plum)}
+.step .lbl{color:var(--muted)}
+.step h3{font-size:22px;margin:10px 0 8px}
+.step p{font-size:14.5px;font-weight:500}
+.limits{margin-top:28px;font-size:14.5px;color:var(--muted);font-weight:500}
+
+footer{padding:40px 0 56px;border-top:1px solid var(--line);color:var(--muted);font-size:13.5px;font-weight:500}
+footer .bar{margin-bottom:24px}
+
+@media (max-width:760px){
+  .day{grid-template-columns:1fr;gap:16px}
+  .piece{grid-template-columns:1fr}
+  .story-img{max-width:62%}
+  .steps{grid-template-columns:1fr 1fr}
+  .found li{grid-template-columns:1fr;gap:8px}
+  .rhythm div{padding:14px 10px 14px 0}
+  .rhythm b{font-size:42px}
+  .rhythm span{font-size:14.5px;line-height:1.3}
+  .rhythm small{font-size:12.5px}
+  .strip img{height:240px}
+  .strip.hl img{height:100px}
+}
+@media (max-width:400px){
+  .facts b{font-size:34px}
+  .steps{grid-template-columns:1fr}
+}
+@media print{
+  @page{size:A4;margin:0}
+  html,body{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  body{font-size:13.5px}
+  .wrap{max-width:none;padding:12mm 12mm 6mm}
+  header{padding:8px 0 24px}
+  .top{margin-bottom:28px}
+  header h1{font-size:58px}
+  section{padding:28px 0}
+  .day{grid-template-columns:1fr;gap:10px;padding:20px 0}
+  .when{break-after:avoid;break-inside:avoid}
+  section + section{break-before:page}
+  .sec-h{break-after:avoid}
+  .piece{grid-template-columns:230px 1fr;gap:18px;break-inside:avoid}
+  .carousel{display:grid;grid-template-columns:repeat(6,1fr);gap:6px;overflow:visible}
+  .carousel img{width:100%;flex:none;max-width:none!important}
+  .piece:has(.carousel){grid-template-columns:1fr}
+  .hint{display:none}
+  .story-img{max-width:140px}
+  .media img:not(.story-img){max-width:230px}
+  .strip{flex-wrap:wrap;overflow:visible}
+  .strip img{height:190px}
+  .strip.hl img{height:90px}
+  .steps,.found li,.rhythm,.table tr,.insight{break-inside:avoid}
+  .cap{font-size:12.5px}
+  .found li{grid-template-columns:100px 1fr;gap:12px;padding:9px 0}
+  .found span{font-size:12.5px}
+  .table th,.table td{padding:6px 8px}
+  .insight{margin-top:14px;padding:12px 16px}
+  section.flow{break-before:auto!important}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="top">
+    <div class="who"><img src="img/logo.jpg" alt="Logo de King Kong Autopartes"><b>King Kong</b></div>
+    <span class="lbl">Propuesta · octubre 2026</span>
+  </div>
+  <h1>Tu Instagram de octubre, <em>hecho por un bot</em></h1>
+  <p class="lead">Un mes de contenido para que te escriban más pidiendo piezas. Lo armamos mirando lo que ya publicaron: qué anduvo, qué no, y lo que tiene King Kong que otros desarmaderos no tienen. No se publicó nada: es para que veas cómo trabajaría.</p>
+  <div class="bar"></div>
+  <div class="facts">
+    <div><b>24</b><span>piezas listas</span></div>
+    <div><b>4</b><span>semanas planificadas</span></div>
+    <div><b>0</b><span>horas de diseño de ustedes</span></div>
+  </div>
+</header>
+
+<section>
+  <div class="sec-h"><h2>Lo que vimos en su cuenta</h2><p>Revisado el 6/10/2026, como lo ve alguien que entra por primera vez.</p></div>
+  <ul class="found">
+    <li><span class="tag r">Urgente</span><div><b>La bio no tiene teléfono ni dice dónde están</b><span>"Desarmadero Legal / Venta de autopartes usadas". El que llega desde un reel no sabe que es en Coronel Suárez, que mandan a todo el país, ni a quién llamar.</span></div></li>
+    <li><span class="tag r">Urgente</span><div><b>Un horario y un teléfono distinto en cada red</b><span>Facebook dice 9 a 16; el sitio, Instagram y TikTok dicen 8 a 16. Maps muestra a Agustín, TikTok a Gonzalo, Instagram a Mauro.</span></div></li>
+    <li><span class="tag g">Bien</span><div><b>Ya tienen un estilo y alguien le pone ganas</b><span>El rosa de la marca y las etiquetas con letra gruesa se reconocen. Hay una línea, no hay que inventarla.</span></div></li>
+    <li><span class="tag o">Contenido</span><div><b>Las piezas en primer plano no dicen de qué auto son</b><span>Un compresor borroso con la palabra "ENVÍOS" no le sirve al que tiene el auto parado. Lo que hace que alguien escriba es ver "Ford Focus", "Clio 1.6".</span></div></li>
+    <li><span class="tag o">Contenido</span><div><b>Las preguntas-juego no se contestan</b><span>"¿Qué sacan los chicos?", "¿Ya nos consultaste?": cero comentarios. "¿Qué auto tenés?" sí se contesta, y además es una consulta.</span></div></li>
+    <li><span class="tag o">Contenido</span><div><b>Lo legal casi no aparece</b><span>La oblea, el RUDAC y el comprobante es lo que los separa de un desarmadero trucho. Un cliente lo escribió en Google: "Lo más importante, todo de origen legal".</span></div></li>
+    <li><span class="tag g">Bien</span><div><b>Las piezas vienen escritas a fibrón y con oblea</b><span>"CLIO", "DUSTER", "GOL POWER" a mano, y la oblea pegada. Es lo más auténtico que tienen: lo convertimos en la firma de todas las piezas.</span></div></li>
+  </ul>
+  <div class="tablewrap">
+  <table class="table">
+    <thead><tr><th>Publicación</th><th>Likes</th><th>Coment.</th></tr></thead>
+    <tbody>
+      <tr class="hit"><td>Ubicación: "Ya sabés dónde estamos" (fijado)</td><td>20</td><td>1</td></tr>
+      <tr class="hit"><td>Un día en el desarmadero (fijado)</td><td>14</td><td>0</td></tr>
+      <tr class="hit"><td>Contactos: los tres vendedores (fijado)</td><td>13</td><td>0</td></tr>
+      <tr><td>Compresor Gol Power + envíos</td><td>5</td><td>0</td></tr>
+      <tr><td>"En menos de 10 minutos esta pieza estaba afuera" (Carlos)</td><td>4</td><td>0</td></tr>
+      <tr><td>"¿Qué sacan los chicos en este video?"</td><td>2</td><td>0</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p class="insight">7.168 seguidores y 2 a 5 likes por posteo. <b>Pero en un desarmadero los likes no son lo que importa:</b> el que necesita un alternador no da like, llama. Lo que mejor anduvo fue lo que responde "¿dónde están y con quién hablo?". El plan va por ahí.</p>
+</section>
+
+<section class="flow">
+  <div class="sec-h"><h2>El plan</h2><p>No es publicar más: es publicar todas las semanas y que cada posteo diga de qué auto es la pieza.</p></div>
+  <div class="rhythm">
+    <div><b>2</b><span>reels por semana</span><small>Un "pedido del día" o "entró al desarme", y uno del equipo</small></div>
+    <div><b>1–2</b><span>carruseles</span><small>Comprá legal, stock por modelo, lo que más sale</small></div>
+    <div><b>5</b><span>días con historias</span><small>Entró hoy, sale hoy, "¿qué auto tenés?"</small></div>
+  </div>
+  <p class="goal"><b>El objetivo no es juntar seguidores.</b> Es que los llamen y les escriban más pidiendo piezas. El hilo del mes es la pregunta que ya hacen por teléfono: <b>"Decinos qué auto tenés."</b> Y un segundo hilo para lo que los diferencia: <b>"Comprá legal."</b></p>
+</section>
+
+<section>
+  <div class="sec-h"><h2>Semana 1 · Cómo pedir y por qué comprar legal</h2><p>Del miércoles 7 al martes 13 de octubre. Con las imágenes, el texto y lo que tendría que hacer una persona.</p></div>
+
+  <div class="day">
+    <div class="when"><span class="lbl">Miércoles</span><b>7/10</b><span class="cd lbl">Posteo + historia</span></div>
+    <div class="pieces">
+      <div class="piece">
+        <div class="media"><img src="png/f1.png" alt="Posteo fijado: cómo pedir una pieza en cuatro pasos"></div>
+        <div>
+          <p class="fmt lbl">Posteo fijado · cómo pedir</p>
+          <h3>Cómo pedir una pieza</h3>
+          <p class="cap">Cómo pedir una pieza en King Kong, para que no tengas que preguntar 👇
+
+1. Mandanos marca, modelo, año y motor (…)
+Llamá o escribile a cualquiera de los tres.</p>
+          <p class="hand">Queda fijado primero. Responde lo que más preguntan y tiene los tres teléfonos.</p>
+        </div>
+      </div>
+      <div class="piece">
+        <div class="media"><img class="story-img" src="png/h1.png" alt="Historia: qué auto tenés"></div>
+        <div>
+          <p class="fmt lbl">Historia · caja de preguntas</p>
+          <h3>¿Qué auto tenés?</h3>
+          <p class="hand">Cada respuesta es una consulta. El martes se contestan en historias con lo que haya para ese auto, y alimentan el carrusel de la semana 2.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="day">
+    <div class="when"><span class="lbl">Jueves</span><b>8/10</b><span class="cd lbl">Carrusel + historia</span></div>
+    <div class="pieces">
+      <div class="piece">
+        <div class="media">
+          <div class="carousel">
+            <img src="png/l1.png" alt="Carrusel: es legal esta pieza">
+            <img src="png/l2.png" alt="Tiene oblea">
+            <img src="png/l3.png" alt="Está inscripto">
+            <img src="png/l4.png" alt="Te dan comprobante">
+            <img src="png/l5.png" alt="Reseña de Alejandro Besano">
+            <img src="png/l6.png" alt="Decinos qué auto tenés">
+          </div>
+          <p class="hint lbl">Deslizá → 6 placas</p>
+        </div>
+        <div>
+          <p class="fmt lbl">Carrusel · comprá legal</p>
+          <h3>¿Es legal esta pieza?</h3>
+          <p class="cap">¿Cómo sabés si una autoparte usada es legal? Mirá tres cosas: que tenga oblea, que el desarmadero esté inscripto y que te den comprobante (…)
+
+Guardalo y mandáselo a quien esté por comprar una pieza usada 📌</p>
+          <p class="hand">Las frases salen de su propio sitio. Se guarda y se comparte: es lo que alguien le manda a un amigo que está por comprar una pieza usada.</p>
+        </div>
+      </div>
+      <div class="piece">
+        <div class="media"><img class="story-img" src="png/h2.png" alt="Historia: entró hoy al desarme"></div>
+        <div>
+          <p class="fmt lbl">Historia · entró hoy</p>
+          <h3>Entró hoy al desarme</h3>
+          <p class="hand">Plantilla para cada auto que entra: <b>ustedes sacan la foto</b> y dicen el modelo; el bot arma la historia con la lista de piezas.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="day">
+    <div class="when"><span class="lbl">Viernes</span><b>9/10</b><span class="cd lbl">Reel + historia</span></div>
+    <div class="pieces">
+      <div class="piece">
+        <div class="media"><img class="story-img" src="png/r1.png" alt="Portada de reel: pedido del día"></div>
+        <div>
+          <p class="fmt lbl">Reel · pedido del día</p>
+          <h3>Del WhatsApp al expreso</h3>
+          <p class="cap">Pedido del día: [pieza] de [auto] para [ciudad].
+Del WhatsApp al expreso, con oblea.</p>
+          <p class="hand"><b>Ustedes graban</b> 5 clips cortos de un pedido real: buscar la pieza, la oblea, el embalaje, el despacho. <b>El bot</b> los edita con textos y esta portada.</p>
+        </div>
+      </div>
+      <div class="piece">
+        <div class="media"><img class="story-img" src="png/h3.png" alt="Historia: sale hoy por expreso"></div>
+        <div>
+          <p class="fmt lbl">Historia · sale hoy</p>
+          <h3>Sale hoy por expreso</h3>
+          <p class="hand">Cada envío es una prueba de que mandan a todo el país. Solo hace falta la foto y la ciudad.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="day">
+    <div class="when"><span class="lbl">Lunes</span><b>12/10</b><span class="cd lbl">Carrusel + historia</span></div>
+    <div class="pieces">
+      <div class="piece">
+        <div class="media">
+          <div class="carousel">
+            <img src="png/c1.png" alt="Carrusel: antes del calor">
+            <img src="png/c2.png" alt="Compresor Volkswagen Gol Power">
+            <img src="png/c3.png" alt="Compresor Ford Focus">
+            <img src="png/c4.png" alt="No está el tuyo, preguntá igual">
+            <img src="png/c5.png" alt="Llamanos o escribinos">
+          </div>
+          <p class="hint lbl">Deslizá → 5 placas</p>
+        </div>
+        <div>
+          <p class="fmt lbl">Carrusel · stock</p>
+          <h3>Antes del calor</h3>
+          <p class="cap">Antes del calor: compresores de aire acondicionado usados, con oblea.
+
+En la foto: Gol Power y Ford Focus. Si el tuyo no está, preguntá igual (…)</p>
+          <p class="hand">Sin precios: "consultanos" lleva la charla al WhatsApp. El feriado se publica igual: la gente está mirando el celular.</p>
+        </div>
+      </div>
+      <div class="piece">
+        <div class="media"><img class="story-img" src="png/h4.png" alt="Historia: lunes feriado, hoy cerrado"></div>
+        <div>
+          <p class="fmt lbl">Historia · aviso</p>
+          <h3>Hoy cerrado</h3>
+          <p class="hand">Solo si cierran el feriado.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="day">
+    <div class="when"><span class="lbl">Martes</span><b>13/10</b><span class="cd lbl">Reel</span></div>
+    <div class="pieces">
+      <div class="piece">
+        <div class="media"><img class="story-img" src="png/r2.png" alt="Portada de reel: los tres que te atienden"></div>
+        <div>
+          <p class="fmt lbl">Reel · los de King Kong</p>
+          <h3>Los tres que te atienden</h3>
+          <p class="cap">Mauro, Agustín y Gonzalo. Cuando llamás a King Kong, te atiende uno de ellos.</p>
+          <p class="hand">Pone cara y nombre a los tres teléfonos. <b>Cada uno graba</b> 5 segundos diciendo su nombre y qué es lo que más le piden.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-h"><h2>Lo que sigue</h2><p>Semanas 2 a 4, del 14/10 al 3/11.</p></div>
+  <ul class="found">
+    <li><span class="tag o">Semana 2</span><div><b>Respuestas con nombre y apellido</b><span>Carrusel "Nos preguntaron por…" con los autos de la caja de preguntas, reel "Entró al desarme" con la lista de piezas, pedido del día #2 y una reseña de Google por día en historias.</span></div></li>
+    <li><span class="tag o">Semana 3</span><div><b>El depósito por dentro</b><span>Carrusel "Lo que más sale", un recorrido de 30 segundos por los pasillos sin cortar, y cómo se desarma un auto con oblea en 4 pasos.</span></div></li>
+    <li><span class="tag o">Semana 4</span><div><b>Clientes que vuelven</b><span>Un mecánico que les compra seguido cuenta qué pide, "¿usada o nueva?" con su criterio, y un envío a otra provincia.</span></div></li>
+  </ul>
+</section>
+
+<section class="flow">
+  <div class="sec-h"><h2>Destacadas nuevas</h2><p>Todas iguales, con el rosa de la marca. Hoy hay 3 y ninguna explica cómo pedir.</p></div>
+  <div class="strip hl">
+    <img src="png/d1.png" alt="Destacada: cómo pedir">
+    <img src="png/d2.png" alt="Destacada: envíos">
+    <img src="png/d3.png" alt="Destacada: oblea">
+    <img src="png/d4.png" alt="Destacada: stock">
+    <img src="png/d5.png" alt="Destacada: reseñas">
+    <img src="png/d6.png" alt="Destacada: ubicación">
+  </div>
+</section>
+
+<section>
+  <div class="sec-h"><h2>Cómo funcionaría</h2><p>El bot queda instalado en su compu, con su cuenta. Ustedes no diseñan ni escriben: eligen.</p></div>
+  <div class="steps">
+    <div class="step"><span class="lbl">Ustedes</span><h3>Mandan material</h3><p>Fotos de la pieza en la mano, clips del depósito, qué auto entró, qué salió.</p></div>
+    <div class="step"><span class="lbl">El bot</span><h3>Arma la semana</h3><p>Plan, placas, reels editados y textos, con su forma de hablar y sus colores.</p></div>
+    <div class="step"><span class="lbl">Ustedes</span><h3>Aprueban</h3><p>Desde el celular. Lo que no les gusta, se cambia o se saca.</p></div>
+    <div class="step"><span class="lbl">El bot</span><h3>Publica</h3><p>Posteos, carruseles, reels e historias, a la hora programada.</p></div>
+  </div>
+  <p class="limits">Lo que sigue siendo a mano: los stickers de las historias (preguntas, enlace a WhatsApp), la música de los reels y filmar los clips.</p>
+</section>
+
+<footer>
+  <div class="bar"></div>
+  <p>Propuesta de Tranquera Digital para King Kong Autopartes. Contenido de muestra: no fue publicado.</p>
+</footer>
+
+</div>
+</body>
+</html>
