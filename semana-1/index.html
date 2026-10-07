@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>King Kong · Semana 1</title>
+<meta name="description" content="Semana 1 de Instagram de King Kong Autopartes, para revisar antes de publicar.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Permanent+Marker&display=swap" rel="stylesheet">
+<style>
+:root{--pink:#ef78ba;--pink-d:#c94d92;--plum:#57193b;--plum-d:#3b0f28;--blush:#fbeef5;--blush-2:#f6d9e8;--paper:#fff9fc;--muted:#86506e;--line:rgba(87,25,59,.14);--tape:#f1e8d6}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--plum);font-family:"Montserrat",system-ui,sans-serif;font-size:16px;line-height:1.55;overflow-x:hidden}
+img,video{display:block;max-width:100%}
+.wrap{max-width:1040px;margin:0 auto;padding:0 16px}
+.lbl{font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+h1,h2,h3{font-weight:900;line-height:.98;letter-spacing:-.02em;text-transform:uppercase;color:var(--plum)}
+h1 em,h2 em{font-style:normal;color:var(--pink-d)}
+.tape{display:inline-block;background:var(--tape);color:var(--plum-d);font-family:"Permanent Marker",cursive;font-size:19px;line-height:1;padding:8px 14px 6px;transform:rotate(-3deg);box-shadow:inset 0 0 0 2px #e2d5bb}
+
+header{padding:26px 0 40px}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:44px}
+.who{display:flex;align-items:center;gap:12px}
+.who img{width:46px;height:46px;border-radius:50%;box-shadow:0 0 0 2px var(--pink)}
+.who b{font-weight:900;font-size:19px;text-transform:uppercase}
+.top .lbl{color:var(--pink-d)}
+header h1{font-size:clamp(40px,9vw,88px)}
+.lead{max-width:640px;margin:20px 0 0;font-size:17.5px;font-weight:500}
+.sum{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:30px}
+.sum div{padding:14px 10px 14px 0}
+.sum b{display:block;font-weight:900;font-size:40px;line-height:1;color:var(--pink-d)}
+.sum span{font-size:13px;font-weight:600;color:var(--muted)}
+
+section{padding:48px 0;border-top:1px solid var(--line)}
+.sec-h{margin-bottom:24px}
+.sec-h h2{font-size:clamp(30px,6vw,50px)}
+.sec-h p{color:var(--muted);max-width:560px;font-size:14.5px;font-weight:500;margin-top:10px}
+
+/* grilla del perfil */
+.phone{max-width:420px;margin:0 auto;background:#fff;border-radius:28px;box-shadow:0 20px 50px rgba(87,25,59,.18);overflow:hidden}
+.prof{display:flex;gap:14px;align-items:center;padding:18px 16px 10px}
+.prof img{width:64px;height:64px;border-radius:50%;box-shadow:0 0 0 2px var(--pink)}
+.prof b{display:block;font-weight:800;font-size:15px}
+.prof p{font-size:12.5px;line-height:1.4;font-weight:500;color:#333;white-space:pre-line}
+.hls{display:flex;gap:10px;padding:8px 14px 14px;overflow:hidden}
+.hls div{text-align:center;font-size:10.5px;font-weight:600;color:#333}
+.hls img{width:54px;height:54px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px #fff,0 0 0 3px #ddd;margin-bottom:4px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px}
+.grid div{position:relative;aspect-ratio:4/5;overflow:hidden;background:#eee}
+.grid img{width:100%;height:100%;object-fit:cover}
+.grid i{position:absolute;top:6px;right:6px;font-style:normal;font-size:12px;background:rgba(0,0,0,.45);color:#fff;border-radius:6px;padding:1px 5px}
+
+/* días */
+.day{display:grid;grid-template-columns:120px 1fr;gap:22px;padding:34px 0;border-top:1px solid var(--line)}
+.day:first-of-type{border-top:0;padding-top:0}
+.when b{display:block;font-weight:900;font-size:38px;line-height:1}
+.when .lbl{color:var(--pink-d)}
+.when .cd{display:inline-block;margin-top:10px;padding:4px 9px;border-radius:999px;background:var(--blush-2)}
+.pieces{display:flex;flex-direction:column;gap:30px;min-width:0}
+.piece{display:grid;grid-template-columns:minmax(0,300px) 1fr;gap:22px;align-items:start}
+.piece>*{min-width:0}
+.fmt{color:var(--pink-d);margin-bottom:6px}
+.piece h3{font-size:24px;margin-bottom:10px}
+.cap{white-space:pre-line;font-size:14.5px;font-weight:500;background:#fff;border-left:3px solid var(--pink);padding:14px 16px;border-radius:0 10px 10px 0}
+.copy{margin-top:8px;font:inherit;font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;background:var(--plum-d);color:#fff;border:0;border-radius:999px;padding:8px 14px;cursor:pointer}
+.copy.ok{background:var(--pink);color:var(--plum-d)}
+.note{margin-top:10px;font-size:13.5px;font-weight:500;color:var(--muted)}
+.note b{color:var(--plum)}
+.media img,.media video{border-radius:12px;box-shadow:0 12px 30px rgba(87,25,59,.18);background:#000}
+.story{max-width:220px}
+.reel{max-width:300px;width:100%}
+.carousel{display:flex;gap:8px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px;-webkit-overflow-scrolling:touch}
+.carousel img{flex:0 0 86%;width:86%;max-width:none;scroll-snap-align:start}
+.hint{color:var(--muted);margin-top:4px}
+.strip{display:flex;gap:10px;overflow-x:auto;padding-bottom:6px}
+.strip img{height:96px;width:96px;border-radius:50%;object-fit:cover;flex:none}
+.covers{display:flex;gap:10px;margin-top:12px}
+.covers img{width:90px;border-radius:8px}
+
+.ask{list-style:none}
+.ask li{padding:14px 0;border-top:1px solid var(--line);font-weight:600}
+.ask li span{display:block;font-size:14px;font-weight:500;color:var(--muted)}
+footer{padding:36px 0 50px;border-top:1px solid var(--line);color:var(--muted);font-size:13.5px;font-weight:500}
+footer .bar{height:6px;background:var(--pink);border-radius:3px;margin-bottom:22px}
+
+@media (max-width:760px){
+  .day{grid-template-columns:1fr;gap:14px}
+  .piece{grid-template-columns:1fr}
+  .story{max-width:60%}
+  .reel{max-width:78%}
+  .sum{grid-template-columns:repeat(2,1fr)}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="top">
+    <div class="who"><img src="media/logo.jpg" alt="Logo de King Kong Autopartes"><b>King Kong</b></div>
+    <span class="lbl">Semana 1 · para revisar</span>
+  </div>
+  <h1>La primera semana, <em>lista para salir</em></h1>
+  <p class="lead">Del jueves 9 al jueves 15 de octubre. Todo armado con el material del depósito: tres reels, dos carruseles, el posteo fijado y las historias. Mirá cada pieza y su texto; lo que quieras cambiar, se cambia antes de publicar.</p>
+  <div class="sum">
+    <div><b>3</b><span>reels</span></div>
+    <div><b>2</b><span>carruseles</span></div>
+    <div><b>1</b><span>posteo fijado</span></div>
+    <div><b>6</b><span>historias + 6 destacadas</span></div>
+  </div>
+</header>
+
+<section>
+  <div class="sec-h"><h2>Así va a quedar el perfil</h2><p>Con la bio nueva, las destacadas y las publicaciones de la semana (las dos primeras quedan fijadas).</p></div>
+  <div class="phone">
+    <div class="prof"><img src="media/logo.jpg" alt=""><div><b>King Kong Autopartes · Desarmadero</b><p>Desarmadero oficial en Coronel Suárez 🦍
+Autopartes usadas con oblea y comprobante
+🚚 Envíos a todo el país · Lun a Vie 8–16
+💬 Mandanos marca, modelo y año 👇</p></div></div>
+    <div class="hls">
+      <div><img src="media/d1.jpg" alt="">Cómo pedir</div><div><img src="media/d2.jpg" alt="">Envíos</div><div><img src="media/d3.jpg" alt="">Oblea</div><div><img src="media/d4.jpg" alt="">Stock</div><div><img src="media/d5.jpg" alt="">Reseñas</div><div><img src="media/d6.jpg" alt="">Ubicación</div>
+    </div>
+    <div class="grid">
+      <div><img src="media/f1.jpg" alt="Fijado: cómo pedir una pieza"><i>📌</i></div>
+      <div><img src="media/l1.jpg" alt="Fijado: es legal esta pieza"><i>📌</i></div>
+      <div><img src="media/p3-grid.jpg" alt="Reel: motor afuera"><i>▶</i></div>
+      <div><img src="media/p2-grid.jpg" alt="Reel: así sale una puerta"><i>▶</i></div>
+      <div><img src="media/c1.jpg" alt="Carrusel: antes del calor"><i>❐</i></div>
+      <div><img src="media/p1-grid.jpg" alt="Reel: así termina un auto"><i>▶</i></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-h"><h2>Día por día</h2><p>Posteos y reels a las 19:30, historias a las 8:30. Tocá "Copiar texto" para llevarte el texto de cada publicación.</p></div>
+
+  <div class="day">
+    <div class="when"><span class="lbl">Jueves</span><b>9/10</b><span class="cd lbl">Fijado + historia</span></div>
+    <div class="pieces">
+      <div class="piece">
+        <div class="media"><img src="media/f1.jpg" alt="Cómo pedir una pieza"></div>
+        <div>
+          <p class="fmt lbl">Posteo fijado</p><h3>Cómo pedir una pieza</h3>
+          <p class="cap">Cómo pedir una pieza en King Kong, para que no tengas que preguntar 👇
+
+1. Mandanos marca, modelo, año y motor. Si tenés foto de la pieza rota, mejor.
+2. La buscamos en el depósito y te decimos si está y cuánto sale.
+3. La retirás en Eucaliptus 4036 o te la mandamos por expreso a cualquier parte del país.
+4. Sale con oblea y comprobante.
+
+Llamá o escribile a cualquiera de los tres:
+Mauro 2926 54-7050 · Agustín 2926 51-8539 · Gonzalo 2926 40-1066
+⏱ Lunes a viernes de 8 a 16, de corrido
+
+#KingKongAutopartes #CoronelSuárez #Desarmadero #AutopartesUsadas</p>
+          <button class="copy">Copiar texto</button>
+        </div>
+      </div>
+      <div class="piece">
+        <div class="media"><img class="story" src="media/h1.jpg" alt="Historia: qué auto tenés"></div>
+        <div><p class="fmt lbl">Historia</p><h3>¿Qué auto tenés?</h3><p class="note">Con la caja de preguntas de Instagram. Cada respuesta es una consulta, y el miércoles se contestan.</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="day">
+    <div class="when"><span class="lbl">Viernes</span><b>10/10</b><span class="cd lbl">Reel + historia</span></div>
+    <div class="pieces">
+      <div class="piece">
+        <div class="media"><video class="reel" src="media/R1-asi-termina-un-auto.mp4" poster="media/p1.jpg" controls playsinline preload="none"></video></div>
+        <div>
+          <p class="fmt lbl">Reel · 33 s</p><h3>Así termina un auto en King Kong</h3>
+          <p class="cap">Así termina un auto en King Kong.
+
+Pero antes de llegar a la pinza pasa por el galpón: le sacamos el motor, las puertas, las ópticas y todo lo que todavía sirve. Cada pieza se identifica y va al estante con su oblea.
+
+Lo que queda se compacta y se va a reciclar. Nada termina en un baldío.
+
+¿Qué auto tenés? Mandanos marca, modelo y año y te decimos si tenemos lo que buscás.
+
+📲 Mauro 2926 54-7050 · Agustín 2926 51-8539 · Gonzalo 2926 40-1066
+📍 Eucaliptus 4036, Coronel Suárez · 🛻 Envíos a todo el país
+
+#KingKongAutopartes #Desarmadero #CoronelSuárez #AutopartesUsadas #Reciclaje</p>
+          <button class="copy">Copiar texto</button>
+          <p class="note">Con el sonido real de la pinza. <b>Portada:</b></p>
+          <div class="covers"><img src="media/p1.jpg" alt="Portada del reel"></div>
+        </div>
+      </div>
+      <div class="piece">
+        <div class="media"><img class="story" src="media/h2.jpg" alt="Historia: entró al desarme Peugeot 207"></div>
+        <div><p class="fmt lbl">Historia</p><h3>Entró al desarme</h3><p class="note">Plantilla para cada auto que entra: foto, modelo y "¿necesitás algo de este auto?".</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="day">
+    <div class="when"><span class="lbl">Sábado</span><b>11/10</b><span class="cd lbl">Carrusel</span></div>
+    <div class="pieces">
+      <div class="piece">
+        <div class="media">
+          <div class="carousel"><img src="media/l1.jpg" alt=""><img src="media/l2.jpg" alt=""><img src="media/l3.jpg" alt=""><img src="media/l4.jpg" alt=""><img src="media/l5.jpg" alt=""><img src="media/l6.jpg" alt=""></div>
+          <p class="hint lbl">Deslizá → 6 placas</p>
+        </div>
+        <div>
+          <p class="fmt lbl">Carrusel · queda fijado</p><h3>¿Es legal esta pieza?</h3>
+          <p class="cap">¿Cómo sabés si una autoparte usada es legal? Mirá tres cosas:
+
+1. Que tenga oblea. Es la etiqueta que pide la ley 25.761: certifica que la pieza es auténtica y de qué vehículo salió.
+2. Que el desarmadero esté inscripto en el RUDAC. Lo podés verificar en argentina.gob.ar.
+3. Que te den comprobante.
+
+En King Kong todas las piezas salen así. Estamos inscriptos en el DNRPA y adheridos a CARVA.
+
+Guardalo y mandáselo a quien esté por comprar una pieza usada 📌
+
+#KingKongAutopartes #Desarmadero #AutopartesUsadas #CoronelSuárez #CompráLegal</p>
+          <button class="copy">Copiar texto</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="day">
+    <div class="when"><span class="lbl">Lunes</span><b>12/10</b><span class="cd lbl">Carrusel + historia</span></div>
+    <div class="pieces">
+      <div class="piece">
+        <div class="media">
+          <div class="carousel"><img src="media/c1.jpg" alt=""><img src="media/c2.jpg" alt=""><img src="media/c3.jpg" alt=""><img src="media/c4.jpg" alt=""><img src="media/c5.jpg" alt=""></div>
+          <p class="hint lbl">Deslizá → 5 placas</p>
+        </div>
+        <div>
+          <p class="fmt lbl">Carrusel</p><h3>Antes del calor</h3>
+          <p class="cap">Antes del calor: compresores de aire acondicionado usados, con oblea.
+
+En la foto: Gol Power y Ford Focus. Hay de otras marcas y modelos, entre otros. Si el tuyo no está, preguntá igual: mandanos marca, modelo y año.
+
+🛻 Envíos a todo el país
+📲 Mauro 2926 54-7050 · Agustín 2926 51-8539 · Gonzalo 2926 40-1066
+
+#KingKongAutopartes #AireAcondicionado #AutopartesUsadas #CoronelSuárez #Desarmadero</p>
+          <button class="copy">Copiar texto</button>
+          <p class="note">Es feriado, pero se publica igual: la gente está con el celular.</p>
+        </div>
+      </div>
+      <div class="piece">
+        <div class="media"><img class="story" src="media/h5.jpg" alt="Historia: cuántas llaves hay"></div>
+        <div><p class="fmt lbl">Historia · encuesta</p><h3>¿Cuántas llaves hay acá?</h3><p class="note">El miércoles se cuenta la respuesta. <b>Falta saber cuántas son, más o menos.</b></p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="day">
+    <div class="when"><span class="lbl">Martes</span><b>13/10</b><span class="cd lbl">Reel + historia</span></div>
+    <div class="pieces">
+      <div class="piece">
+        <div class="media"><video class="reel" src="media/R2-asi-sale-una-puerta.mp4" poster="media/p2.jpg" controls playsinline preload="none"></video></div>
+        <div>
+          <p class="fmt lbl">Reel · 29 s</p><h3>Así sale una puerta</h3>
+          <p class="cap">Así sale una puerta de King Kong 🚪
+
+Se desarma con cuidado, sale entera (con espejo y todo), se identifica y se embala bien embalada. La del final salió para Rosario.
+
+¿Necesitás una puerta? Pasanos marca, modelo, año y cuál es (delantera o trasera, izquierda o derecha) y te mandamos foto.
+
+📲 Mauro 2926 54-7050 · Agustín 2926 51-8539 · Gonzalo 2926 40-1066
+🛻 Envíos a todo el país
+
+#KingKongAutopartes #Desarmadero #AutopartesUsadas #CoronelSuárez #Envíos</p>
+          <button class="copy">Copiar texto</button>
+          <p class="note">Va con un tema en tendencia que se elige al subirlo. <b>Portada:</b></p>
+          <div class="covers"><img src="media/p2.jpg" alt="Portada del reel"></div>
+        </div>
+      </div>
+      <div class="piece">
+        <div class="media"><img class="story" src="media/h3.jpg" alt="Historia: sale hoy para Rosario"></div>
+        <div><p class="fmt lbl">Historia</p><h3>Sale hoy por expreso</h3><p class="note">Plantilla para cada envío: foto de la pieza embalada y la ciudad.</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="day">
+    <div class="when"><span class="lbl">Miércoles</span><b>14/10</b><span class="cd lbl">Historias</span></div>
+    <div class="pieces">
+      <div class="piece">
+        <div></div>
+        <div><p class="fmt lbl">Historias</p><h3>Respuestas</h3><p class="note">Las preguntas del jueves ("¿qué auto tenés?") contestadas una por una, con foto de lo que haya para cada auto, y el resultado de las llaves.</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="day">
+    <div class="when"><span class="lbl">Jueves</span><b>15/10</b><span class="cd lbl">Reel</span></div>
+    <div class="pieces">
+      <div class="piece">
+        <div class="media"><video class="reel" src="media/R3-motor-afuera.mp4" poster="media/p3.jpg" controls playsinline preload="none"></video></div>
+        <div>
+          <p class="fmt lbl">Reel · 33 s</p><h3>Motor afuera</h3>
+          <p class="cap">Peugeot 207: motor afuera.
+
+Sale entero, va al pallet y queda listo para el que lo esté buscando.
+
+¿Buscás motor? Decinos marca, modelo, año y motor (1.4, 1.6, nafta o diésel) y te decimos si lo tenemos.
+
+📲 Mauro 2926 54-7050 · Agustín 2926 51-8539 · Gonzalo 2926 40-1066
+📍 Eucaliptus 4036, Coronel Suárez · 🛻 Envíos a todo el país
+
+#KingKongAutopartes #Peugeot207 #Desarmadero #CoronelSuárez #AutopartesUsadas</p>
+          <button class="copy">Copiar texto</button>
+          <p class="note">Va con un tema en tendencia. <b>Portada:</b></p>
+          <div class="covers"><img src="media/p3.jpg" alt="Portada del reel"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-h"><h2>Lo que necesitamos de ustedes</h2></div>
+  <ul class="ask">
+    <li>¿Qué WhatsApp va en la bio?<span>Puse el de Agustín porque es el que figura en Google Maps.</span></li>
+    <li>¿Abren el lunes 12 (feriado)?<span>Si cierran, sale una historia avisando.</span></li>
+    <li>¿Cuántas llaves hay, más o menos?<span>Para contestar la encuesta del lunes.</span></li>
+    <li>¿Qué es la etiqueta "C.I.C." de las piezas?<span>Aparece en dos reels. Hoy dice "se identifica"; si nos cuentan qué es, lo explicamos mejor.</span></li>
+    <li>Para la semana 2: qué autos entraron, qué salió por expreso y 3 o 4 videítos de 5 a 10 segundos<span>Por el grupo de WhatsApp, mandados como "Documento" para que no pierdan calidad.</span></li>
+  </ul>
+</section>
+
+<footer>
+  <div class="bar"></div>
+  <p>Semana 1 de Instagram para King Kong Autopartes, por Tranquera Digital. Todavía no se publicó nada.</p>
+</footer>
+
+</div>
+<script>
+document.querySelectorAll('.copy').forEach(function(b){
+  b.addEventListener('click',function(){
+    var t=b.previousElementSibling.innerText;
+    var done=function(){b.textContent='¡Copiado!';b.classList.add('ok');setTimeout(function(){b.textContent='Copiar texto';b.classList.remove('ok')},1800)};
+    if(navigator.clipboard){navigator.clipboard.writeText(t).then(done,function(){})}
+  });
+});
+</script>
+</body>
+</html>
